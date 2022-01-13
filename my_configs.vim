@@ -97,9 +97,9 @@ set wrap
 " make it not wrap in the middle of a "word"
 set linebreak
 " put a hard wrap at 80 characters (to disable set textwidth=0)
-autocmd BufRead,BufNewFile *.cpp,*.py setlocal textwidth=80
+autocmd BufRead,BufNewFile *.cpp,*.py setlocal textwidth=120
 " put a visual indicator at the 80 character limit
-autocmd BufRead,BufNewFile *.cpp,*.py setlocal colorcolumn=80
+autocmd BufRead,BufNewFile *.cpp,*.py setlocal colorcolumn=120
 autocmd BufRead,BufNewFile *.cpp,*.py highlight ColorColumn ctermbg=7
 
 " ---------- VIM-MARKDOWN SETTINGS ----------
